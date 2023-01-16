@@ -1,0 +1,12 @@
+- title: Email
+  url: mailto://Ryanlin0426@gmail.com
+  icon: fas fa-envelope
+- title: Instagram
+  url: https://www.instagram.com/l__junjun__l/?hl=zh-tw
+  icon: fab fa-instagram
+- title: Facebook
+  url: https://www.facebook.com/ryan.lin.98892/
+  icon: fab fa-facebook
+- title: GitHub
+  url: https://github.com/ItzLanJiao
+  icon: fab fa-github
