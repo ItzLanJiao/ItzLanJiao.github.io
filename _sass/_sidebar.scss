@@ -51,17 +51,12 @@
   margin: 0 auto; 
   letter-spacing: .15em; 
   animation: 
-    typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+    typing 3.5s steps(30, end);
 }
 
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  25% { border-color: white }
 }
 
 .navigation-list {
