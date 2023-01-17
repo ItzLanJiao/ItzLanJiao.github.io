@@ -4,6 +4,10 @@
 
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
+// Sidebar
+//
+// Styles for the sidebar.
+
 .masthead {
   text-align: center;
   margin: auto;
@@ -25,9 +29,9 @@
 }
 
 .masthead-title {
-  font-family: monospace;
   padding: 0;
   margin: 0;
+  font-family: 'Anonymous Pro', monospace;  
   font-size: 2rem;
   font-weight: 900;
 
@@ -38,32 +42,31 @@
 }
 
 .masthead-tagline {
-  font-family: 'Anonymous Pro', monospace; 
-  position: relative;
   padding: 0;
-  margin: 0 auto;
-  border-right: 2px solid rgba(255,255,255,.75);
-  text-align: center;
-  font-size: 1.75rem;
+  margin: 0;
+  font-family: 'Anonymous Pro', monospace;  
+  font-size: 1.25rem;
   font-weight: 400;
   opacity: .7;
-  overflow: hidden; 
-  white-space: nowrap; 
-  letter-spacing: .15em; 
-  transform: translateY(-50%);   
   
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-
+  overflow: hidden; 
+  border-right: .15em solid white; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
 }
 
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 24em;}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
 }
 
 .navigation-list {
@@ -112,5 +115,4 @@
     width: 15%;
   }
 }
-
 
