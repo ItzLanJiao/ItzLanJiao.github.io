@@ -2,6 +2,8 @@
 //
 // Styles for the sidebar.
 
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 .masthead {
   text-align: center;
   margin: auto;
@@ -35,30 +37,29 @@
 }
 
 .masthead-tagline {
-  font-family: 'Waiting for the Sunrise', cursive; 
+  font-family: 'Anonymous Pro', monospace; 
   padding: 0;
   margin: 0 auto; 
   font-size: 1.75rem;
   font-weight: 400;
   opacity: .7;
-  
+  text-align: center;
   overflow: hidden; 
-  border-right: .1em solid white; 
+  border-right: .05em solid white; 
   white-space: nowrap; 
   letter-spacing: .15em; 
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+  
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
 }
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
 }
 
 .navigation-list {
