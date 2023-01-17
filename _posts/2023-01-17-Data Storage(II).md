@@ -2,6 +2,7 @@
 layout: post
 title: Data Storage(II)
 tags: 計算機概論
+categories: 大學課堂筆記
 date: '2023-01-17 01:35 +0800'
 published: true
 ---
