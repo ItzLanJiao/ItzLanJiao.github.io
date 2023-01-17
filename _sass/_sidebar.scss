@@ -50,7 +50,7 @@
   white-space: nowrap; 
   letter-spacing: .15em; 
   
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  animation: typing 2s steps(22, end) infinite , blink .5s steps(22, end) infinite ;
 }
 
 @keyframes typing {
