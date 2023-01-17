@@ -27,13 +27,25 @@
   margin: 0;
   font-size: 2rem;
   font-weight: 900;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 
   a:hover,
   a:focus {
     color: var(--link-hover-color);
   }
 }
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
 
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
 .masthead-tagline {
   padding: 0;
   margin: 0;
