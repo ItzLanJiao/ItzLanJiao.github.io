@@ -4,7 +4,7 @@ description: 一個喜歡搞小發明的大學生
 url: https://ItzLanJiao.github.io
 avatar: /avatar.jpeg
 paginate: 5
-permalink: pretty
+permalink: /:categories/:title/
 cover_image: /bg.jpeg
 
 # Gems
