@@ -51,7 +51,7 @@
   letter-spacing: .15em; 
   
   animation: typewriter 2s steps(22) infinite normal,
-             blinkTextCursor .5s step-end infinite;
+             blinkTextCursor .5s step(22) infinite;
 }
 
 @keyframes typewriter{
@@ -60,7 +60,7 @@
   }
 }
 @keyframes blinkTextCursor{
-  50% {
+  30% {
     border-color: transparent
   }
 }
