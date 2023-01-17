@@ -46,7 +46,7 @@
   opacity: .7;
   
   overflow: hidden; 
-  border-right: .15em solid white; 
+  border-right: 2px solid white; 
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
@@ -61,7 +61,7 @@
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: white }
+  25% { border-color: white }
 }
 
 .navigation-list {
