@@ -1,9 +1,9 @@
 - type: dates
   title: 根據日期分類
   url: /dates/
-#- type: categories
-#  title: Categories
-#  url: /categories/
+- type: categories
+  title: 根據種類分類
+  url: /categories/
 - type: tags
   title: 根據標籤分類
   url: /tags/
