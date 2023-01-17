@@ -35,11 +35,11 @@ layout: default
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">較早的文章</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+    <span class="pagination-item older">較舊的文章</span>
   {% endif %}
   {% if paginator.previous_page %}
     <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">較新的文章</a>
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="pagination-item newer">較新的文章</span>
   {% endif %}
 </div>
