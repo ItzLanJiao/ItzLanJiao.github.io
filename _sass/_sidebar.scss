@@ -74,7 +74,16 @@
 .navigation-item {
   display: block;
   margin-bottom: var(--spacer);
+  animation-name: fly_in 2s;
 }
+
+@keyframes fly_in{
+  0%{
+      left:0;
+  }
+  100%{
+      left:200px;
+  }
 
 .navigation-item a {
   background: transparent;
