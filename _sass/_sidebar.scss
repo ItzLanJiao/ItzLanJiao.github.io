@@ -51,7 +51,7 @@
   white-space: nowrap; 
   letter-spacing: .15em; 
   
-  animation: typewriter 4s steps(44) 4s infinite normal both,
+  animation: typewriter 4s steps(44) 1s infinite normal,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 
@@ -60,7 +60,7 @@
   to{width: 24em;}
 }
 @keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.1);}
+  from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
 
