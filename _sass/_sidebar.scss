@@ -44,14 +44,17 @@
   font-size: 1.25rem;
   font-weight: 400;
   opacity: .7;
-  display: grid;
-  place-content: center;
   text-align: center;
   
   overflow: hidden; 
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
+  white-space: nowrap;
+  position: relative;
+  border-right: 2px solid rgba(255,255,255,.75);
+  transform: translateY(-50%);  
+  width: max-content;
   animation: typewriter 4s steps(44) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
